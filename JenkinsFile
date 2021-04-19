@@ -3,6 +3,6 @@ node {
         git "https://github.com/moshemi/practiesGitBash.git"
     }
     stage("show files"){
-        bat "dir"
+        bat "python myapp.py"
     }
 }
